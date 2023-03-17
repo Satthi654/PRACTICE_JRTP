@@ -19,4 +19,11 @@ public class Test{
 		System.out.println("The Difference  Between  "+a+" and "+b+" are : "diff);
 	}
 	
+	int prod;
+	public void performMultiplication(){
+		a = 20;
+		b = 10;
+		prod = a * b;
+		System.out.println("The Product of  "+a+" and "+b+" are : "prod);
+	}
 }
