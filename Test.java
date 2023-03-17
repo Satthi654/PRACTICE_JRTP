@@ -4,11 +4,12 @@ public class Test{
 		
 	}
 	
-	public void printHelloWorld(){
-		System.out.println("Hello World!, We Are Going to rock in Java");
-		System.out.println("Hello World!, We Are Going to rock in Java");
-		System.out.println("Hello World!, We Are Going to rock in Java");
-		System.out.println("Hello World!, We Are Going to rock in Java");
-		
+	public void performAddition(){
+		int a , b;
+		int sum =0;
+		a = 10;
+		b = 20;
+		sum = 10 + 20;
+		System.out.println("The sum of "+a+" and "+b+" are : "sum);
 	}
 }
